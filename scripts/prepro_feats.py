@@ -46,6 +46,9 @@ preprocess = trn.Compose([
         trn.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
 
+import sys
+sys.path.append('/home/samrat_sah28_gmail_com/workspace/self-critical.pytorch')
+print(sys.path)
 from misc.resnet_utils import myResnet
 import misc.resnet as resnet
 
