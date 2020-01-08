@@ -21,6 +21,8 @@ import eval_utils
 import misc.utils as utils
 from misc.rewards import init_scorer, get_self_critical_reward
 from misc.loss_wrapper import LossWrapper
+import sys
+sys.path.append('/home/samrat_sah28_gmail_com/workspace/self-critical.pytorch/dependencies/')
 
 try:
     import tensorboardX as tb
